@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/guangshangzhang/.nvm/versions/node/v10.12.0/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/guangshangzhang/.nvm/versions/node/v10.12.0/bin:/Users/guangshangzhang/.rvm/gems/ruby-2.3.1/bin:/Users/guangshangzhang/.rvm/gems/ruby-2.3.1@global/bin:/Users/guangshangzhang/.rvm/rubies/ruby-2.3.1/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/guangshangzhang/.rvm/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject",
+      "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/samples": "2.1.1",
+      "expo": "^32.0.0",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+      "react-navigation": "^3.0.9"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0",
+      "jest-expo": "^32.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:154:17)
