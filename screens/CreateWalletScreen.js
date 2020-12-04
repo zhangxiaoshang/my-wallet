@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View, TextInput, Alert } from "react-native";
 import { Button } from "teaset";
-const bip39 = require("../assets/js/bip39.browser");
+// const bip39 = require("../assets/js/bip39.browser");
 
 export default class CreateWalletScreen extends Component {
   static navigationOptions = {
@@ -21,8 +21,8 @@ export default class CreateWalletScreen extends Component {
   }
 
   componentDidMount() {
-    let mnemonic = bip39.generateMnemonic();
-    console.log(mnemonic);
+    // let mnemonic = bip39.generateMnemonic();
+    // console.log(mnemonic);
   }
 
   render() {
